@@ -1,0 +1,112 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+  }
+  
+  .manager-container {
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    color: #4CAF50;
+  }
+  
+  .header p {
+    color: #555;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .user-list, .user-form {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .user-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .user-item.inactive {
+    background: #fff5f5;
+  }
+  
+  .user-info {
+    font-size: 1rem;
+  }
+  
+  .button-group button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .btn-edit {
+    background: #2196F3;
+    color: white;
+  }
+  
+  .btn-edit:hover {
+    background: #1976d2;
+  }
+  
+  .btn-delete {
+    background: #f44336;
+    color: white;
+  }
+  
+  .btn-delete:hover {
+    background: #d32f2f;
+  }
+  
+  .user-form input, .user-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .btn-save {
+    background: #4CAF50;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-save:hover {
+    background: #45a049;
+  }
+  

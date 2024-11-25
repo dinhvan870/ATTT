@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .reception-container {
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    color: #4CAF50;
+  }
+  
+  .header p {
+    color: #555;
+  }
+  
+  /* Grid Layout */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Card Styles */
+  .card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  /* User List */
+  .user-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .user-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .user-item.inactive {
+    background: #fff5f5;
+  }
+  
+  .user-item .user-info {
+    font-size: 1rem;
+  }
+  
+  .btn-edit {
+    background: #2196F3;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .btn-edit:hover {
+    background: #1976d2;
+  }
+  
+  /* User Details */
+  .user-info-display p {
+    margin: 10px 0;
+  }
+  
+  .edit-user input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn-save {
+    background: #4CAF50;
+    color: white;
+  }
+  
+  .btn-cancel {
+    background: #f44336;
+    color: white;
+  }
+  

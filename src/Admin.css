@@ -1,0 +1,113 @@
+.admin-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .user-table, .form-container {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-table h3, .form-container h3 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .user-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .user-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-item:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .user-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .user-actions button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .user-actions .edit-btn {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .user-actions .delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .user-actions button:hover {
+    opacity: 0.9;
+  }
+  
+  .user-details {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  form input, form select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #45a049;
+  }
+  
